@@ -1,0 +1,352 @@
+Bài tập 1
+Hãy hoàn thành các yêu cầu sau:
+
+Tạo biến bossName và gán giá trị cho biến này là tên thú cưng của bạn
+Tạo biến bossAge và gán cho giá trị là số tuổi thú cưng của bạn
+Tạo biến senName để lưu tên của bạn
+Tạo biến senAge để lưu số tuổi của bạn
+Hiển thị giá trị biến bossName với hàm alert
+
+Giải :
+
+var bossName = 'ThuCung',
+    bossAge = '18',
+    senName = 'Ngao',
+    senAge = '15';
+alert('bossName')
+
+bài 2 : // Làm bài tập tại đây
+var currentCourse = 'Javascript cơ bản',
+    newCourse = currentCourse;
+alert('currentCourse');
+alert('newSourse');
+
+var newCourse = 'Javascript nâng cao'
+alert('newCourse')
+
+bài 3:
+// Làm bài tập tại đây
+
+var bossSound = 'Meozzz';
+var bossAge = 2;
+
+//bossSound = 'Cạp cạp';
+
+/*bossAge = 4;
+
+bossSound = 'Gâu Gâu'
+
+bossAge = 8; */
+
+Bài 4: // Làm bài tập tại đây
+var fullName = 'Thuong';
+alert(fullName);
+
+var message = 'Học về built-in functions trong JS',
+    warnMessage = 'Đây là message cảnh báo',
+    errorMessage = 'Đây là message lỗi'
+console.log(message);
+console.warn(warnMessage);
+console.error(errorMessage);
+
+Bài 5 :
+// Làm bài tập tại đây
+function run(a, b) {
+    c = a + b;
+    return c;
+}
+
+Bài 6 : // Sửa code tại vị trí dấu [3 chấm]
+
+function run(a, h) {
+    var s = a * h / 2
+    
+    return s;
+}
+
+Bài 7 : // Sửa code tại vị trí dấu 3 chấm
+
+function run(sum, different) {
+    var a = (sum + different) / 2;
+    var b = sum - a;
+        
+    return 'a is ' + a + ' and b is ' + b;
+}
+
+Bài 8 : function run(minutes) {
+    var seconds = minutes * 60;
+
+    return seconds;
+}
+
+Bài 9 : // Làm bài tập tại đây
+
+function run(a, b, h) {
+    s = 1 / 2 * h * ( a + b )
+
+    return s;
+}
+Bài 10 : // Làm bài tập tại đây
+
+function run(a, b) {
+    ++a;
+    --b;
+
+    return 'a is ' + a + ' and b is ' + b;
+}
+Bài 11 : // Làm bài tập tại đây
+
+function run(a, b) {
+    var c = --a;
+    var d = ++b;
+
+    return 'c is ' + c + ' and d is ' + d;
+}
+
+Bài 12 : // Làm bài tập tại đây
+
+function run(x, y, z) {
+    x *= 2;
+    y /= 3;
+    z %= 2;
+
+    return 'x is ' + x + ' and y is ' + y + ' and z is ' + z;
+}
+
+Bài 13 : // Làm bài tập tại đây
+
+function decrease(number) {
+    number += 2;
+
+    // không sửa phần dưới này
+    return number
+}
+Bài 14 : // Làm bài tập tại đây
+var firstName = 'Pham';
+var lastName = 'Thuong';
+
+var fullName = firstName + ' ' + lastName;
+
+
+Bài 15 : // Làm bài tập tại đây
+// Chỉ sửa code tại vị trí dấu 3 chấm
+
+function run(bookCoin, userCoin) {
+    if (userCoin >= bookCoin) {
+        return 'Bạn có thể mua cuốn sách này!';
+    } else {
+        return 'Bạn không thể mua cuốn sách này!';
+    }
+} 
+
+bài 16 : // Làm bài tập tại đây
+
+function canVote(age) {
+    if (age >= 18) {
+        return "Đủ điều kiện bầu cử"
+    } else {
+        return "Không đủ điều kiện bầu cử"
+    }
+}
+
+Bài 17 : // Làm bài tập tại đây
+
+function isCommentable(verifiedAt) {
+    var result;
+    
+    if (verifiedAt) {
+        result = true
+    } else {
+        result = false
+    }
+
+    return result;
+}
+
+Bài 18 : // Làm bài tập tại đây
+
+function run(number) {
+    var result;
+    
+    if (number % 2 == 0) {
+        result = 'even'
+    } else {
+        result = 'odd'
+    }
+    return result;
+}
+
+bài 19: // Làm bài tập tại đây
+
+function checkCanAccessible(age) {
+    var isAccessible;
+    
+    if (age >= 16) {
+        isAccessible = true
+    } else {
+        isAccessible = false
+    }
+
+    return isAccessible;
+}
+
+Bài 20 : // Làm bài tập tại đây
+
+function run(socialType, isVerified) {
+    var result;
+
+    if (socialType == 'facebook' || socialType == 'google') {
+        result = true
+        }
+    if (socialType == 'email') {
+        if(isVerified == true){
+            result = true
+        }
+    }
+    return result;
+}
+
+Bài 21 : 
+function votableCheck(isAuthenticated, role) {
+    var result;
+
+    if(isAuthenticated === true) {
+        if(role === 'member' || role === 'admin') {
+            result = true;
+        } else {
+            result = false;
+        }
+    }
+    else {
+        result = false;
+    }
+
+    return result;
+}
+
+Bài 22 : // Làm bài tập tại đây
+var age = 18,
+    pi = 3.14,
+    bonusPoint = 69;
+
+Bài 23: // Làm bài tập tại đây
+
+var fullName = 'Thuong',
+    myGirlFriendName = 'undefined',
+    currentLanguage = 'Javascript';
+    
+Bài 24 : 
+function run(input) {
+    var output;
+    if(typeof input == 'string') {
+        output = true;
+    }
+    else {
+        output = false;
+    }
+    return output;
+}
+
+Bài 25 :
+
+function run(bonusPoint) {
+    var result;
+
+    if(bonusPoint === 50) {
+        result = true;
+    }
+    else {
+        result = false;
+    }
+    
+    return result;
+}
+
+
+bài 26 : 
+function run(bonusPoint) {
+
+    var result = true == (bonusPoint === 50),
+        result = false == (bonusPoint !== 50);
+    
+    return result;
+}
+
+Bài 27 : // Làm bài tập tại đây
+function run(a, b, c) {
+    var result = a || b || c;
+    return result;
+}
+
+bài 28 : // Làm bài tập tại đây
+var commentText = '"Học chưa hiểu là học chưa đủ!"',
+    authorName = "Sơn Đặng:"
+    fullCommentText = `${authorName} ${commentText}`;
+
+bài 29 : // Làm bài tập tại đây
+
+var commentText = 'Để hiển thị được chuỗi chứa dấu gạch'
+ + ' chéo ngược (\\) ta phải'
+ + ' thêm dấu \\ vào trước hoặc sau nó';
+
+console.log(commentText);
+
+Bài 30 : 
+function run(commentText) {
+    let textLength = commentText.length;
+    return textLength;
+}
+
+bài 31 : 
+function run(statusText) {
+    let result;
+    if(typeof statusText === 'string' && statusText.length >= 1) {
+        result = true;
+    }
+    else {
+        result = false;
+    }
+    return result;
+}
+
+Bài 32 : 
+
+function run(title, description) {
+     let result;
+                  if (title.indexOf('Javascript') != -1 && description.indexOf('Javascript') != -1 ) {
+                      result = true;
+                  }
+                  else {
+                      result = false;
+                  }
+
+    return result;
+}
+
+Bài 33 : 
+function run(title) {
+    const language = title.slice(4, 14),
+           rest = title.slice(14);
+    return `Language is ${language} and rest is ${rest}`;
+}
+
+Bài 34 : 
+
+function run(content) {
+    return content.replace(/JS và js/g, 'Javascript và js' )
+     && content.replace(/JS/g, "Javascript" )
+}
+
+Bài 35 : 
+
+function run(a, b) {
+    a = a.toLowerCase();
+    b = b.toUpperCase();
+    return a + '|' + b;
+}
+
+bài 36 : 
+
+function trimText(statusText) {
+    return statusText.trim();
+}
