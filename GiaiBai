@@ -350,3 +350,29 @@ bài 36 :
 function trimText(statusText) {
     return statusText.trim();
 }
+Bài 37 : 
+function numberToString(number) {
+
+    return number.toString();
+
+}
+
+Bài 38 : 
+
+function run(pi) {
+
+    return pi.toFixed(2);
+
+}
+
+Bài 39 : 
+function run(number) {
+    let result;
+    if(Number.isInteger(number) && number > 0) {
+        result = true;
+    } else {
+        result = false;
+    }
+
+    return result;
+}
